@@ -16,9 +16,9 @@ This is tiny simple blog engine based on Django.
       Mac source ```venv/bin/activate```
       Если виртуальное окружение успешно активировано, то в начале строки ввода будет (venv).
 4. Установим пакеты нашего проекта ```pip install -r requirements.txt```
-5. ```cd mysite
-    python manage.py collectstatic
-    python manage.py createsuperuser``` - создаём учётную запись администратора
+5. ```cd mysite```
+    ```python manage.py collectstatic```
+    ```python manage.py createsuperuser``` - создаём учётную запись администратора
 6. ```python manage.py runserver``` - запускаем сервер
 
 Далее, переходим в браузер.
