@@ -21,7 +21,7 @@
                                 class="date">{{ post.created_at|date:"D d E Y" }}</span>
                         </h6>
 
-                        <div>{{ post.content|truncatewords_html:20|safe }} <a href="{{ post.get_absolute_url }}">Читать
+                        <div>{{ post.content|truncatewords_html:20|cut:"img" }} <a href="{{ post.get_absolute_url }}">Читать
                                 далее</a></div>
 
                     </div>

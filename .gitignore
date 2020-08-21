@@ -9,3 +9,5 @@ migrations/*
 
 venv
 .vscode
+
+.DC_Store
