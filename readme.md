@@ -10,10 +10,10 @@ This is tiny simple blog engine based on Django.
 2. Далее, войдите в директорию с проектом - ```cd simpleblog```
 3. Установите виртуальное окружение python
         ```python -m venv venv```
-      или для mac можно ```python3 -m venv venv```
+      или для Mac/Linux можно ```python3 -m venv venv```
       активируйте виртуальное окружение
       Windows ```venv\scripts\activate```
-      Mac source ```venv/bin/activate```
+      Mac/Linux ```source venv/bin/activate```
       Если виртуальное окружение успешно активировано, то в начале строки ввода будет (venv).
 4. Установим пакеты нашего проекта ```pip install -r requirements.txt```
 5. ```cd mysite```
