@@ -21,6 +21,7 @@ This is tiny simple blog engine based on Django.
 ```python manage.py collectstatic```
 
 ```python manage.py createsuperuser``` - создаём учётную запись администратора
+
 6. ```python manage.py runserver``` - запускаем сервер
 
 Далее, переходим в браузер.
